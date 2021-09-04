@@ -6,7 +6,7 @@
 /*   By: mmaurer <mmaurer@student.42wolfsburg.de>   +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2021/08/13 14:40:29 by mmaurer           #+#    #+#             */
-/*   Updated: 2021/09/03 18:47:20 by mmaurer          ###   ########.fr       */
+/*   Updated: 2021/09/04 20:38:33 by mmaurer          ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -43,5 +43,6 @@ void	*ft_calloc(size_t nmemb, size_t size);
 char	*ft_substr(char const *s, unsigned int start, size_t len);
 char	*ft_strtrim(char const *s1, char const *set);
 char	*ft_strjoin(char const *s1, char const *s2);
+void	ft_putchar_fd(char c, int fd);
 
 #endif

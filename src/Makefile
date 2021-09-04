@@ -6,7 +6,7 @@
 #    By: mmaurer <mmaurer@student.42wolfsburg.de>   +#+  +:+       +#+         #
 #                                                 +#+#+#+#+#+   +#+            #
 #    Created: 2021/08/13 14:27:16 by mmaurer           #+#    #+#              #
-#    Updated: 2021/09/03 19:10:06 by mmaurer          ###   ########.fr        #
+#    Updated: 2021/09/04 20:43:26 by mmaurer          ###   ########.fr        #
 #                                                                              #
 # **************************************************************************** #
 
@@ -14,7 +14,8 @@ SRC = ft_memset.c ft_bzero.c ft_memcpy.c ft_memccpy.c ft_isalpha.c \
 	ft_isdigit.c ft_isalnum.c ft_isascii.c ft_isprint.c ft_toupper.c \
 	ft_tolower.c ft_atoi.c ft_strlen.c ft_strlcpy.c ft_memmove.c ft_strlcat.c \
 	ft_strchr.c ft_strrchr.c ft_strncmp.c ft_strnstr.c ft_memchr.c \
-	ft_memcmp.c ft_strdup.c ft_calloc.c ft_substr.c ft_strtrim.c ft_strjoin.c
+	ft_memcmp.c ft_strdup.c ft_calloc.c ft_substr.c ft_strtrim.c ft_strjoin.c \
+	ft_putchar_fd.c
 OBJS = $(SRC) #${SRC:.c=.o}
 HEADERS = libft.h
 NAME = libft.a
