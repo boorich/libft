@@ -6,7 +6,7 @@
 /*   By: mmaurer <mmaurer@student.42wolfsburg.de>   +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2021/09/05 15:43:24 by mmaurer           #+#    #+#             */
-/*   Updated: 2021/09/05 16:32:31 by mmaurer          ###   ########.fr       */
+/*   Updated: 2021/09/05 17:56:46 by mmaurer          ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -15,7 +15,6 @@
 /*
 *	Outputs the integer ’n’ to the given filedescriptor.
 */
-
 void	ft_putnbr_fd(int n, int fd)
 {
 	if (n == -2147483648)
