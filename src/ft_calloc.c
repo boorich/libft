@@ -6,7 +6,7 @@
 /*   By: mmaurer <mmaurer@student.42wolfsburg.de>   +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2021/08/29 21:54:41 by mmaurer           #+#    #+#             */
-/*   Updated: 2021/09/01 23:23:55 by mmaurer          ###   ########.fr       */
+/*   Updated: 2021/09/07 21:34:42 by mmaurer          ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -37,7 +37,6 @@
 * malloc() with a size of zero, or by a successful call to calloc() with nmemb
 * or size equal to zero.
 */
-
 void	*ft_calloc(size_t nmemb, size_t size)
 {
 	void	*p;

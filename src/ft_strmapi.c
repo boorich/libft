@@ -6,7 +6,7 @@
 /*   By: mmaurer <mmaurer@student.42wolfsburg.de>   +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2021/09/06 20:56:42 by mmaurer           #+#    #+#             */
-/*   Updated: 2021/09/06 21:34:55 by mmaurer          ###   ########.fr       */
+/*   Updated: 2021/09/07 22:20:47 by mmaurer          ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -15,6 +15,11 @@
 /*
 * Applies the function ’f’ to each character of thestring ’s’ to create a new
 * string (with malloc(3))resulting from successive applications of ’f’.
+1.	It takes two parameters: a string and a function pointer.
+2.	It allocates memory for a new string that is as long as the input string.
+3.	It loops through the input string and calls the function pointer for each
+	character.
+4.	It returns the new string.
 */
 char	*ft_strmapi(char const *s, char (*f)(unsigned int, char))
 {

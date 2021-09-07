@@ -6,7 +6,7 @@
 /*   By: mmaurer <mmaurer@student.42wolfsburg.de>   +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2021/08/26 15:35:22 by mmaurer           #+#    #+#             */
-/*   Updated: 2021/09/01 23:25:27 by mmaurer          ###   ########.fr       */
+/*   Updated: 2021/09/07 22:11:46 by mmaurer          ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -26,6 +26,17 @@
 * does not match has a lower value in s1 than in s2.
 * Positive value of distance between ascii values <= The first character that
 * does not match has a greater value in s1 than in s2.
+1.	The ft_strncmp() function takes two string parameters and a third parameter
+	n.
+2.	The function returns 0 if the two strings are identical, otherwise it
+	returns the difference between the first two differing bytes (unsigned char)
+		of the two strings.
+3.	The while loop is used to compare the first n bytes of the two strings.
+4.	If the two strings are identical, the loop will exit and the function will
+	return 0.
+5.	If the two strings are not identical, the loop will exit and the function
+	will return the difference between the first two differing bytes of the two
+	strings.
 */
 int	ft_strncmp(const char *s1, const char *s2, size_t n)
 {

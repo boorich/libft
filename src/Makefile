@@ -6,7 +6,7 @@
 #    By: mmaurer <mmaurer@student.42wolfsburg.de>   +#+  +:+       +#+         #
 #                                                 +#+#+#+#+#+   +#+            #
 #    Created: 2021/08/13 14:27:16 by mmaurer           #+#    #+#              #
-#    Updated: 2021/09/06 20:56:30 by mmaurer          ###   ########.fr        #
+#    Updated: 2021/09/07 20:27:46 by mmaurer          ###   ########.fr        #
 #                                                                              #
 # **************************************************************************** #
 
@@ -16,7 +16,7 @@ SRC = ft_memset.c ft_bzero.c ft_memcpy.c ft_memccpy.c ft_isalpha.c \
 	ft_strchr.c ft_strrchr.c ft_strncmp.c ft_strnstr.c ft_memchr.c \
 	ft_memcmp.c ft_strdup.c ft_calloc.c ft_substr.c ft_strtrim.c ft_strjoin.c \
 	ft_putchar_fd.c ft_putstr_fd.c ft_putendl_fd.c ft_putnbr_fd.c \
-	ft_striteri.c ft_strmapi.c
+	ft_striteri.c ft_strmapi.c ft_itoa.c
 OBJS = $(SRC) #${SRC:.c=.o}
 HEADERS = libft.h
 NAME = libft.a
@@ -41,7 +41,7 @@ fclean: clean
 re: fclean all
 
 test: all
-	@$(CC) ../tests/test_ft_striteri.c -L. -lft -o ../tests/a.out
+	@$(CC) ../tests/test_ft_itoa.c -L. -lft -o ../tests/a.out
 	@../tests/a.out
 
 .PHONY:	all clean fclean re test

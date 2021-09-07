@@ -6,7 +6,7 @@
 /*   By: mmaurer <mmaurer@student.42wolfsburg.de>   +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2021/09/05 15:43:24 by mmaurer           #+#    #+#             */
-/*   Updated: 2021/09/05 17:56:46 by mmaurer          ###   ########.fr       */
+/*   Updated: 2021/09/07 22:33:29 by mmaurer          ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -14,6 +14,13 @@
 
 /*
 *	Outputs the integer ’n’ to the given filedescriptor.
+1.	If n is equal to -2147483648, then we print out the negative sign, the
+	letter ‘2’, and then the number 147483648.
+2.	If n is less than 0, then we print out the negative sign and then
+	recursively call ft_putnbr_fd to print out the positive number.
+3.	If n is greater than 9, then we print out the number n/10 and then the
+	number n%10.
+4.	If n is less than 9, then we print out the number n.
 */
 void	ft_putnbr_fd(int n, int fd)
 {

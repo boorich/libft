@@ -6,7 +6,7 @@
 /*   By: mmaurer <mmaurer@student.42wolfsburg.de>   +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2021/08/24 17:08:33 by mmaurer           #+#    #+#             */
-/*   Updated: 2021/09/01 23:23:34 by mmaurer          ###   ########.fr       */
+/*   Updated: 2021/09/07 21:31:25 by mmaurer          ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -19,6 +19,11 @@
 * then flips sign if required and then converts character to digit until the
 * end of the string is reached using this algorithm result * 10 + (str[i] - '0')
 * and stores in result.
+1.	We start by initializing i to 0 and result to 0.
+2.	We then loop through the string until we reach the end of the string or a
+	non-digit character.
+3.	If we encounter a ‘-‘, we set sign to -1.
+4.	If we encounter a ‘+’, we set sign to 1.
 */
 int	ft_atoi(const char *str)
 {
