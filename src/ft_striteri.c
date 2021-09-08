@@ -6,7 +6,7 @@
 /*   By: mmaurer <mmaurer@student.42wolfsburg.de>   +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2021/09/05 17:54:53 by mmaurer           #+#    #+#             */
-/*   Updated: 2021/09/07 22:34:02 by mmaurer          ###   ########.fr       */
+/*   Updated: 2021/09/08 11:07:11 by mmaurer          ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -14,7 +14,7 @@
 
 /*
 * Applies the function f to each character of the string passed as argument, and
-* passing its indexas first argument.  Each character is passed by address to f
+* passing its index as first argument. Each character is passed by address to f
 * to be modified if necessary.
 1.	The ft_striteri() function takes two parameters: a string and a function
 	pointer.
